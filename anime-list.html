@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime List - 9Anime</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Anime List</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="anime-list.html" class="active">Anime List</a></li>
+          <li><a href="favorites.html">Favorites</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h2>All Anime</h2>
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search anime by title..."
+      />
+      <div id="animeList" class="anime-list"></div>
+    </main>
+
+    <footer>
+      <p>© 2025 9Anime. All rights reserved.</p>
+    </footer>
+
+    <script src="js/anime-list.js"></script>
+  </body>
+</html>
