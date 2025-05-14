@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const featuredContainer = document.getElementById("featured");
     featuredContainer.innerHTML = ""; // Clears any existing content
 
-    const featuredAnimes = getFeaturedAnimes(animeData, 6); // Number of featured anime to display
+    const featuredAnimes = getFeaturedAnimes(animeData, 10); // Number of featured anime to display
 
     featuredAnimes.forEach((anime) => {
       const card = document.createElement("div");
